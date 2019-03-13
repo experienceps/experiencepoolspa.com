@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Experience Pool &amp; Spa - Design, Build, Minnesota</title>
+  <title>Minnesota Pool Builder | Experience Pool &amp; Spa</title>
   <meta name="description" content="Experience Pool &amp; Spa provides residential and commerical pool and spa design, building and renovation in the greater Minneapolis, Minnesota area. Ben Kallevig, Owner.">
   <meta name="keywords" content="experience pool spa design build renovate contractor minneapolis minnesota ben kallevig">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimal-ui">
@@ -29,25 +29,30 @@
         padding: 0;
     }
     body {
-        background: #1C76B8;
-        color: #fff;
         font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
     }
     a {
-        color: #fff;
+        color: #1e86c8;
         text-decoration: none;
+    }
+    .eps-logo {
+        margin: 0 auto 40px;
+        display: block;
+        width: 400px;
     }
     p,
     .eps-sub-head {
-        font-size: 18px;
-        font-weight: 100;
         line-height: 24px;
         margin: 0 0 15px;
+        text-align: center;
+    }
+    .eps-sub-head {
+        font-size: 20px;
     }
     .eps-container {
         box-sizing: border-box;
-        margin: 40px auto;
-        padding: 40px 30px;
+        margin: 0 auto;
+        padding: 20px 30px 20px;
         width: 600px;
     }
     .eps-head {
@@ -61,7 +66,7 @@
         margin: 60px 0 0;
     }
     .eps-c-p {
-        margin: 0 0 15px;
+        margin: 0 0 5px;
         text-decoration: none;
     }
     .eps-water-droplet {
@@ -72,14 +77,17 @@
         margin: 70px 0 0;
     }
     .eps-footer-text {
-        color: #fff;
         font-size: 14px;
+        font-weight: 100;
     }
     @media (max-width: 600px) {
+        .eps-logo {
+            max-width: 400px;
+            width: 95%;
+        }
         .eps-container {
-            margin: 40px 0 0;
-            max-width: 500px;
-            padding: 40px 25px;
+            margin: 0;
+            padding: 20px 25px;
             width: 100%;
         }
         .eps-head {
@@ -87,12 +95,12 @@
         }
         p,
         .eps-sub-head {
-            font-size: 16px;
+            font-size: 18px;
             line-height: 18px;
-            font-weight: 100;
         }
         .eps-c-p {
-            margin: 0 0 15px;
+            font-size: 16px;
+            margin: 0 0 5px;
         }
         .eps-footer-text {
             font-size: 14px;
@@ -103,25 +111,12 @@
 
 <body>
     <div class="eps-container">
-        <svg
-            version="1.1"
-            class="eps-water-droplet"
-            xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
-            x="0px"
-            y="0px"
-            viewBox="0 0 25.906 25.906"
-            style="enable-background:new 0 0 25.906 25.906;"
-            xml:space="preserve">
-            <g>
-                <path
-                    style="fill:#FFFFFF;"
-                    d="M12.953,0c0,0-9,10.906-9,16.906c0,4.971,4.029,9,9,9s9-4.029,9-9C21.953,10.906,12.953,0,12.953,0z
-                        M9.026,17.496c0,1.426,0.668,4.25,1.134,5.426c-3.042-1.494-3.846-4.425-3.846-6.463c0-3.173,3.684-7.824,5.777-12.149C11.861,6.581,9.026,13.177,9.026,17.496z"/>
-            </g>
-        </svg>      
-        <h1 class="eps-head">Experience Pool &amp; Spa</h1>
-        <p class="eps-sub-head">Design &nbsp;/&nbsp; Build &nbsp;/&nbsp; Renovate
+        <div itemscope itemtype="https://schema.org/HomeAndConstructionBusiness">
+            <a itemprop="url" href="/" title="Experience Pool & Spa, Pool Design Construction Renvoation">    
+                <img itemprop="logo" class="eps-logo" src="experience-pool-spa-designer-builder.svg" alt="Experience Pool & Spa, Pool Designers Builders Contractors, Minneapolis, MN">
+            </a>
+        </div>
+        <p class="eps-sub-head">Design &nbsp;/&nbsp; Build &nbsp;/&nbsp; Renovate</p>
         <p class="eps-sub-head">Residential &nbsp;/&nbsp; Commercial</p>
         <div class="eps-contact">
             <p class="eps-c-p">+1 (763) 233-1892</p>
